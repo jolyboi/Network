@@ -1,0 +1,77 @@
+.navbar {
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 5px;
+}
+
+.navbar-brand, #following-heading {
+    font-family: American Typewriter, serif;
+}
+
+.body {
+    padding: 0 15px;
+}
+#compose-view {
+    border: 0.3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form-control {
+    resize: none;
+    margin: 12px 0;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.profile-header {
+    margin-bottom: 0;
+}
+
+.profile-stats > div {
+    margin: 0 2rem;
+}
+
+.post a:hover {
+    text-decoration: none;
+}
+
+.follow-button {
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+
+}
+
+.follow-button:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
+}
+
+.follow-button:focus {
+    box-shadow: none;
+}
+
+.post-content {
+    margin-bottom: 7px;
+}
+
+.like-button > i {
+    font-size: 20px;
+    margin-top: 7px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: red;
+}
